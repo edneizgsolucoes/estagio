@@ -5,6 +5,6 @@ import groovy.transform.CompileStatic
 @CompileStatic
 interface ClasseExecutavel {
 
-	void executar()
+	boolean executar()
 
 }

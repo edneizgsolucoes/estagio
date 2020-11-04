@@ -2,7 +2,6 @@ package ednei.task.scheduler
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
-
 import groovy.transform.CompileStatic
 
 @CompileStatic
