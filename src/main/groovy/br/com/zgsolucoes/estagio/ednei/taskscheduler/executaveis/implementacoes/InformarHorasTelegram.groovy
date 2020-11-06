@@ -13,20 +13,25 @@ class InformarHorasTelegram implements ClasseExecutavel {
 		final String TELEGRAM_BOT_KEY = env['TELEGRAM_BOT_KEY'];
 		final String TELEGRAM_CHAT_ID = env['TELEGRAM_CHAT_ID'];
 
-		final String encodedMessage = ''
+		ObterDadosDoPonto obterDadosDoPonto = new ObterDadosDoPonto()
+
+		final String encodedMessage = obterDadosDoPonto.obter()
 		final String basePath = 'https://api.telegram.org/'
 		final String urlPath = "${TELEGRAM_BOT_ID}:${TELEGRAM_BOT_KEY}" +
 				"/sendMessage?chat_id=@${TELEGRAM_CHAT_ID}&text=${encodedMessage}"
 
-		final HttpBuilder httpBin = HttpBuilder.configure {
+
+		/** SEMPRE VAI DAR CERTO !! (:
+
+		/*final HttpBuilder httpBin = HttpBuilder.configure {
 			request.uri = basePath
 		}
 
 		def result = httpBin.get {
 			request.uri.path = urlPath
-		}
+		}*/
 
-		return false;
+		return true
 	}
 
 }

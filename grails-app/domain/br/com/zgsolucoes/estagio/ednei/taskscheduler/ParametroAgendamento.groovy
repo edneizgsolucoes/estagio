@@ -3,13 +3,11 @@ package br.com.zgsolucoes.estagio.ednei.taskscheduler
 import grails.compiler.GrailsCompileStatic
 
 @GrailsCompileStatic
-class Executavel {
+class ParametroAgendamento {
 
-    String titulo
-    String classeExecutavel
-    List<Parametro> parametros;
+    Agendamento agendamento
+    Parametro parametro
 
     static constraints = {
-        titulo unique: true
     }
 }

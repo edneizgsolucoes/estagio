@@ -1,9 +1,9 @@
 package br.com.zgsolucoes.estagio.ednei.taskscheduler
 
-import grails.testing.web.controllers.ControllerUnitTest
+import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class ExecutavelOldControllerSpec extends Specification implements ControllerUnitTest<ExecutavelOldController> {
+class EventoSpec extends Specification implements DomainUnitTest<Evento> {
 
     def setup() {
     }
