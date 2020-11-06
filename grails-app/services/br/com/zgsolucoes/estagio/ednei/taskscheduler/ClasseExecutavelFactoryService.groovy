@@ -11,7 +11,7 @@ class ClasseExecutavelFactoryService {
 	ApplicationContext applicationContext
 
 	ClasseExecutavel procurarClasseExecutavel(Executavel executavel) {
-		final Class clazz = Class.forName("br.com.zgsolucoes.estagio.ednei.taskscheduler.executaveis.implementacoes.${executavel.classeExecutavel}")
+		final Class clazz = Class.forName("br.com.zgsolucoes.estagio.ednei.ednei.task.scheduler.executaveis.implementacoes.${executavel.classeExecutavel}")
 
 		final ClasseExecutavel classeExecutavel = (ClasseExecutavel) applicationContext.getBean(executavel.classeExecutavel, clazz);
 

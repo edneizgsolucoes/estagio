@@ -24,7 +24,7 @@ class ExecutavelExecutorServiceSpec extends Specification
 
 		and: 'eu tenho uma executavelOld'
 		final String titulo = 'informar horas completas no dia pelo instagram'
-		final String classeExecutavel = 'br.com.zgsolucoes.estagio.ednei.taskscheduler.executaveis.implementacoes.InformarHorasTelegram'
+		final String classeExecutavel = 'br.com.zgsolucoes.estagio.ednei.ednei.task.scheduler.executaveis.implementacoes.InformarHorasTelegram'
 		final Executavel executavel = new Executavel(titulo: titulo, classeExecutavel: classeExecutavel)
 		executavel.save()
 
@@ -49,7 +49,7 @@ class ExecutavelExecutorServiceSpec extends Specification
 
 		and: 'eu tenho uma executavelOld'
 		final String titulo = 'informar horas completas no dia pelo instagram'
-		final String classeExecutavel = 'br.com.zgsolucoes.estagio.ednei.taskscheduler.executaveis.implementacoes.InformarHorasTelegram'
+		final String classeExecutavel = 'br.com.zgsolucoes.estagio.ednei.ednei.task.scheduler.executaveis.implementacoes.InformarHorasTelegram'
 		final Executavel executavel = new Executavel(titulo: titulo, classeExecutavel: classeExecutavel)
 		executavel.save()
 
