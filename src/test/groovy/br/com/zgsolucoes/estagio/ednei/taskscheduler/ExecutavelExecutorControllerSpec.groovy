@@ -1,10 +1,9 @@
 package br.com.zgsolucoes.estagio.ednei.taskscheduler
 
-
-import grails.testing.services.ServiceUnitTest
+import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class ExecutavelCrudServiceSpec extends Specification implements ServiceUnitTest<ExecutavelCrudService>{
+class ExecutavelExecutorControllerSpec extends Specification implements ControllerUnitTest<ExecutavelExecutorController> {
 
     def setup() {
     }

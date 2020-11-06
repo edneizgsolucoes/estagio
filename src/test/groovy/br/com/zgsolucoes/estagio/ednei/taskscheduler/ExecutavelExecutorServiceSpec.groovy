@@ -22,7 +22,7 @@ class ExecutavelExecutorServiceSpec extends Specification
 
 		service.classeExecutavelFactoryService = classeExecutavelFactoryServiceMock
 
-		and: 'eu tenho uma executavel'
+		and: 'eu tenho uma executavelOld'
 		final String titulo = 'informar horas completas no dia pelo instagram'
 		final String classeExecutavel = 'br.com.zgsolucoes.estagio.ednei.taskscheduler.executaveis.implementacoes.InformarHorasTelegram'
 		final Executavel executavel = new Executavel(titulo: titulo, classeExecutavel: classeExecutavel)
@@ -47,7 +47,7 @@ class ExecutavelExecutorServiceSpec extends Specification
 
 		service.classeExecutavelFactoryService = classeExecutavelFactoryServiceMock
 
-		and: 'eu tenho uma executavel'
+		and: 'eu tenho uma executavelOld'
 		final String titulo = 'informar horas completas no dia pelo instagram'
 		final String classeExecutavel = 'br.com.zgsolucoes.estagio.ednei.taskscheduler.executaveis.implementacoes.InformarHorasTelegram'
 		final Executavel executavel = new Executavel(titulo: titulo, classeExecutavel: classeExecutavel)
