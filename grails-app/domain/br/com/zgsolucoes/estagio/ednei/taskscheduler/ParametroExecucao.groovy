@@ -11,5 +11,6 @@ class ParametroExecucao {
     String valor
 
     static constraints = {
+        id insert: false, update: false
     }
 }

@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus
 
 class ProgramaDeEstagioController {
 
-    def obtenhaNomePrograma() {
+    def obtenhaNomeProjeto() {
         render([contentType: 'application/json', status: HttpStatus.OK], 'Ednei-task-scheduler') as Object
     }
 }

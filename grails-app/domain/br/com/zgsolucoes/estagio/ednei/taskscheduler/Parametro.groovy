@@ -5,6 +5,8 @@ import grails.compiler.GrailsCompileStatic
 @GrailsCompileStatic
 class Parametro {
 
+    Long id;
+
     String nome
     String tipo
 
